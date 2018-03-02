@@ -719,7 +719,7 @@ p a {
 img {
     border-style: none;
     height: auto;
-    max-width: 40%;
+    max-width: 100%;
     vertical-align: middle;
 }
 
@@ -3718,12 +3718,12 @@ ol.list-num-count.upper-alpha > li:before {
 	7. Testimonials 
 -------------------------------------*/
 .testimonial-pic {
-	background:#FFF; 
-	width:100px; 
-	height:100px;
+	background:#080404cc; 
+	width:200px; 
+	height:200px;
 	position:relative;
-	display:inline-block;
-	border:5px solid #FFF; 
+
+	border:5px solid #080404cc; 
 }
 .testimonial-pic.radius {
 	border-radius:100%; 
@@ -3763,7 +3763,7 @@ ol.list-num-count.upper-alpha > li:before {
 }
 .testimonial-text {
 	padding:15px;
-	position:relative;
+
 }
 .testimonial-text p:last-child{
 	margin:0;
